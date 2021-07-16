@@ -1,16 +1,66 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* @font-face {
+    font-family: "Opensans";
+    src: url("../public/fonts/opensans/OpenSans-Regular-webfont.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+} */
+
+
+
+@font-face {
+    font-family: 'OpenSansExtraBold';
+    src: url('../public/fonts/opensans/OpenSans-ExtraBold-webfont.eot');
+    src: url('../public/fonts/opensans/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+    /* url('../public/fonts/opensans/OpenSans-ExtraBold-webfont.woff2') format('woff2'), */
+    url('../public/fonts/opensans/OpenSans-ExtraBold-webfont.woff') format('woff'),
+    url('../public/fonts/opensans/OpenSans-ExtraBold-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../public/fonts/opensans/OpenSans-Bold-webfont.eot');
+    src: url('../public/fonts/opensans/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    /* url('../public/fonts/opensans/OpenSans-Bold-webfont.woff2') format('woff2'), */
+    url('../public/fonts/opensans/OpenSans-Bold-webfont.woff') format('woff'),
+    url('../public/fonts/opensans/OpenSans-Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'librebaskervilleItalic';
+    src: url('../public/fonts/librebaskerville/librebaskerville-italic-webfont.eot');
+    src: url('../public/fonts/librebaskerville/librebaskerville-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    /* url('../public/fonts/librebaskerville/librebaskerville-italic-webfont.woff2') format('woff2'), */
+    url('../public/fonts/librebaskerville/librebaskerville-italic-webfont.woff') format('woff'),
+    url('../public/fonts/librebaskerville/librebaskerville-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'librebaskervilleRegular';
+    src: url('../public/fonts/librebaskerville/librebaskerville-regular-webfont.eot');
+    src: url('../public/fonts/librebaskerville/librebaskerville-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    /* url('../public/fonts/librebaskerville/librebaskerville-regular-webfont.woff2') format('woff2'), */
+    url('../public/fonts/librebaskerville/librebaskerville-regular-webfont.woff') format('woff'),
+    url('../public/fonts/librebaskerville/librebaskerville-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

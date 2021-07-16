@@ -1,0 +1,162 @@
+{
+  "main": {
+    "name": "Adedayo Showande",
+    "occupation": "Front-End Developer",
+    "description": "I eat, sleep and breathe React sometimes Oxygen",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Adedayo! You might also know me as DY. I've been coding for a few years now. As a Front-End developer I've worked both with startups to help build & scale their companies. Along the journey I realised my passion existed in building beautiful, interactive ui and amazing websites.",
+    "contactmessage": "Hire Me!",
+    "email": "hadedaryor@gmail.com",
+    "phone": "+2348091163372",
+    "address": {
+      "street": "10, Tijani Street",
+      "city": "Lagos-Ng",
+      "state": "Lagos",
+      "zip": "112107"
+    },
+    "website": "https://www.papareact.com/course",
+    "resumedownload": "http://papareact.com",
+    "social": [
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/ImDahDayo",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "facebook",
+        "url": "https://web.facebook.com/Hadedaryor/",
+        "className": "faFacebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/showande-adedayo-789a42195/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/lord_qaisi/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/IsiaqAdedayo",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "University of Lagos - NG",
+        "degree": "Bachelor's Degree, Physics Science",
+        "graduated": "July 2017",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Credmart",
+        "title": "Front-End Developer",
+        "years": "February 2021",
+        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "99%"
+      },
+      {
+        "name": "Tailwind",
+        "level": "90%"
+      },
+      {
+        "name": "NextJs",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "99%"
+      },
+      {
+        "name": "Web Development",
+        "level": "95%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Video Streaming with live chat(React JS)",
+        "category": "",
+        "image": "/video_streaming_with_live_chat.jpg",
+        "url": "https://vidstry.netlify.app/"
+      },
+      {
+        "title": "Pilot(Next JS & Tailwind)",
+        "category": "",
+        "image": "/Pilot_Web.jpg",
+        "url": "https://my-pilot.vercel.app/"
+      },
+      {
+        "title": "Hulu Clone(Next JS & Tailwind)",
+        "category": "",
+        "image": "/hulu_clone.jpg",
+        "url": "https://hulu-clone-flame-one.vercel.app/"
+      },
+      {
+        "title": "Login(Next JS & Tailwind)",
+        "category": "",
+        "image": "/Login_page.jpg",
+        "url": "https://frontendassessment.vercel.app/"
+      },
+      {
+        "title": "Movie Nominations (React JS)",
+        "category": "",
+        "image": "/Movie_Nominations.jpg",
+        "url": "https://movie-awardz.netlify.app/"
+      },
+      {
+        "title": "Github Repo Clone(CSS & GRAPHQL)",
+        "category": "",
+        "image": "/Repo_Clone.jpg",
+        "url": "https://git-repo-clone.netlify.app/"
+      },
+      {
+        "title": "Shopping (HTML, CSS & Bootstrap)",
+        "category": "",
+        "image": "/Shopping_web.jpg",
+        "url": "https://vibrant-mirzakhani-250cb6.netlify.app/index.html"
+      },
+      {
+        "title": "User Database (React JS)",
+        "category": "",
+        "image": "/User_database.jpg",
+        "url": "https://app-user-database.netlify.app/"
+      },
+      {
+        "title": "Crypto Tracker (React JS)",
+        "category": "",
+        "image": "/crypto_tracka.jpg",
+        "url": "https://crypto-tracka.netlify.app/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+        "user": "Jorge Fouto"
+      },
+      {
+        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+        "user": "Adam Curtis"
+      }
+    ]
+  }
+}
