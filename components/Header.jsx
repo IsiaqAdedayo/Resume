@@ -1,9 +1,10 @@
 import { XIcon, MenuIcon } from '@heroicons/react/outline'
-import React, {useState} from 'react';
+import {useState} from 'react';
 import { Transition } from "@headlessui/react";
 import TypeWriter from 'react-typewriter';
 import { ChevronDownIcon } from "@heroicons/react/solid"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import { faFacebookF, faTwitter, faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -24,7 +25,7 @@ const Header = ({ data }) => {
     }
 
     return (
-        <div className="bg-bgh h-screen bg-cover">
+        <div className="bg-bgh h-screen bg-cover" id="home">
             <div className=" h-screen w-screen">
                 <div className="md:hidden fixed z-50">
                     <button onClick={() => setIsOpen(!isOpen)} className="absolute p-2 bg-purple-600 top-3 rounded-tr-2xl rounded-br-2xl">                           
@@ -63,13 +64,61 @@ const Header = ({ data }) => {
                                         >
                                             <div className="h-c">
                                                 <div className="flex w-full justify-between z-60">
-                                                    <div className="flex flex-col pt-10 pl-16 space-y-8 font-OpenSansBold"> 
-                                                        <a href="#" onClick={() => setIsOpen(!isOpen)} >HOME</a>
-                                                        <a href="#about" onClick={() => setIsOpen(!isOpen)} >ABOUT</a>
-                                                        <a href="#resume" onClick={() => setIsOpen(!isOpen)} >RESUME</a>
-                                                        <a href="#portfolio" onClick={() => setIsOpen(!isOpen)} >PORTFOLIO</a>
-                                                        <a href="#testimonials" onClick={() => setIsOpen(!isOpen)} >TESTIMONIAL</a>
-                                                        <a href="#contact" onClick={() => setIsOpen(!isOpen)} >CONTACT</a>
+                                                    <div className="flex flex-col pt-10 pl-16 space-y-8 font-OpenSansBold">
+                                                        <Link
+                                                            activeClass="active"
+                                                            to="home"
+                                                            // spy={true}
+                                                            smooth={true}
+                                                            offset={-70}
+                                                            duration={500}
+                                                            onClick={() => setIsOpen(!isOpen)}
+                                                        >HOME</Link>
+                                                        <Link
+                                                            activeClass="active"
+                                                            to="about"
+                                                            // spy={true}
+                                                            smooth={true}
+                                                            offset={-70}
+                                                            duration={500}
+                                                            onClick={() => setIsOpen(!isOpen)}
+                                                        >ABOUT</Link>
+                                                        <Link
+                                                            activeClass="active"
+                                                            to="resume"
+                                                            // spy={true}
+                                                            smooth={true}
+                                                            offset={-70}
+                                                            duration={500}
+                                                            onClick={() => setIsOpen(!isOpen)}
+                                                        >RESUME</Link>
+                                                        <Link
+                                                            activeClass="active"
+                                                            to="portfolio"
+                                                            // spy={true}
+                                                            smooth={true}
+                                                            offset={-70}
+                                                            duration={500}
+                                                            onClick={() => setIsOpen(!isOpen)}
+                                                        >PORTFOLIO</Link>
+                                                        <Link
+                                                            activeClass="active"
+                                                            to="testimonials"
+                                                            // spy={true}
+                                                            smooth={true}
+                                                            offset={-70}
+                                                            duration={500}
+                                                            onClick={() => setIsOpen(!isOpen)}
+                                                        >TESTIMONIALS</Link>
+                                                        <Link
+                                                            activeClass="active"
+                                                            to="contact"
+                                                            // spy={true}
+                                                            smooth={true}
+                                                            offset={-70}
+                                                            duration={500}
+                                                            onClick={() => setIsOpen(!isOpen)}
+                                                        >CONTACT</Link>
                                                     </div>
 
                                                     <Transition.Child
@@ -111,13 +160,61 @@ const Header = ({ data }) => {
                 </div>
 
 
-                <div className="hidden md:flex md:w-auto  md:text-bold  md:mt-0  md:border-none justify-center items-center flex-grow cursor-pointer font-opensansn tracking-widest font-OpenSansBold text-sm">  
-                    <a href="#" className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none">HOME</a>
-                    <a href="#about" className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none">ABOUT</a>
-                    <a href="#resume" className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none">RESUME</a>
-                    <a href="#portfolio" className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none">PORTFOLIO</a>
-                    <a href="#testimonials" className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none">TESTIMONIALS</a>
-                    <a href="#contact" className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none">CONTACT</a>
+                <div className="hidden md:flex md:w-auto  md:text-bold  md:mt-0  md:border-none justify-center items-center flex-grow cursor-pointer font-opensansn tracking-widest font-OpenSansBold text-sm">
+                    <Link
+                        activeClass="active"
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none"
+                    >HOME</Link>
+                    <Link
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none"
+                    >ABOUT</Link>
+                    <Link
+                        activeClass="active"
+                        to="resume"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none"
+                    >RESUME</Link>
+                    <Link
+                        activeClass="active"
+                        to="portfolio"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none"
+                    >PORTFOLIO</Link>
+                    <Link
+                        activeClass="active"
+                        to="testimonials"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none"
+                    >TESTIMONIALS</Link>
+                    <Link
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="block md:inline-block text-white hover:text-oceanGreen px-3 py-3 border-b-2 border-blue-900 md:border-none"
+                    >CONTACT</Link>
                 </div>
 
 
@@ -148,9 +245,17 @@ const Header = ({ data }) => {
                             </a> 
                         </div>
                         <div className="hidden md:block absolute bottom-6 w-14 h-14 text-lg border-none bg-white transition-all duration-200 ease-in-out rounded-full text-gray-800 hover:bg-oceanGreen">
-                            <a href="#about" className="flex justify-center items-center text-center w-full h-full">
+                            <Link
+                                activeClass="active"
+                                to="about"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="flex justify-center items-center text-center w-full h-full"
+                            >
                                 <ChevronDownIcon className="w-10 h-10"/>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
