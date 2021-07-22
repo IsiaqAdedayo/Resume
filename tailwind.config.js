@@ -22,6 +22,7 @@
           "coffeeLight": "#ccc",
           "coffeeLight2": "#7a7a7a",
           "bgCoffTrns": "#000000cc",
+          "oceanCoffee": "#333",
           "bgHeader": "#444"
          }),
          height: {

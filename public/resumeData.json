@@ -3,7 +3,7 @@
     "name": "Adedayo Showande",
     "occupation": "Front-End Developer",
     "description": "I eat, sleep and breathe React sometimes Oxygen",
-    "image": "profilepic.jpg",
+    "image": "/Adedayo.png",
     "bio": "Hi there! I am Adedayo! You might also know me as DY. I've been coding for a few years now. As a Front-End developer I've worked both with startups to help build & scale their companies. Along the journey I realised my passion existed in building beautiful, interactive ui and amazing websites.",
     "contactmessage": "Hire Me!",
     "email": "hadedaryor@gmail.com",
@@ -59,7 +59,7 @@
         "company": "Credmart",
         "title": "Front-End Developer",
         "years": "February 2021",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "description": "Working on creating a beautiful and intaractive UI of an e-commerce website."
       }
     ],
     "skills": [
@@ -150,12 +150,12 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
+        "text": "Adedayo is absolutely excellent, his knowledge was comprehensive. Even better, his advice helped me enough to solve a few problems and I wouldn’t hesitate to recommend or work with him again, cool guy!",
+        "user": "Ikhafia Paul"
       },
       {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "text": "What I loved about Adedayo was the fact that he started with a plan and executed it. He took the time to get to know my business before starting the build process which saved me time because I didn’t have to continually make changes",
+        "user": "Oripeloye Emmanuel"
       }
     ]
   }

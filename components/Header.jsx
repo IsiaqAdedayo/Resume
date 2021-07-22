@@ -1,5 +1,5 @@
 import { XIcon, MenuIcon } from '@heroicons/react/outline'
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import { Transition } from "@headlessui/react";
 import TypeWriter from 'react-typewriter';
 import { ChevronDownIcon } from "@heroicons/react/solid"
@@ -10,8 +10,32 @@ import { faFacebookF, faTwitter, faLinkedin, faInstagram, faGithub } from '@fort
 
 const Header = ({ data }) => {
 
+    const [scrolled,setScrolled]= useState(false);
+    const [menuClass, setMenuClass] = useState("")
+
+    const handleScroll=() => {
+        const offset=window.scrollY;
+
+        if ( offset > 700){
+            setScrolled(true);
+            setMenuClass("visible, bg-oceanCoffee")
+        }else{
+            if(offset > 200){
+                setScrolled(true);
+                setMenuClass("invisible");  
+            }else{
+                setScrolled(false);
+            }
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll',handleScroll)
+    })
+
     if (data) {
         var name = data.name;
+        var profilepic = data.image;
         var occupation = data.occupation;
         var description = data.description;
         var city = data.address.city;
@@ -130,9 +154,12 @@ const Header = ({ data }) => {
                                                         leaveTo="translate-x-full"
                                                         className="absolute bg-red-800 h-20 w-20 mt-8 left-3/4 rounded-full"
                                                     >
-                                                        <div className=" bg-red-800">
-
-                                                        </div>
+                                                        <img 
+                                                            src={profilepic}
+                                                            layout="fill"
+                                                            alt={name}
+                                                            className="h-20 w-20 rounded-full"
+                                                        />
                                                     </Transition.Child>
                                                 </div>
                                             </div>
@@ -160,7 +187,7 @@ const Header = ({ data }) => {
                 </div>
 
 
-                <div className="hidden md:flex md:w-auto  md:text-bold  md:mt-0  md:border-none justify-center items-center flex-grow cursor-pointer font-opensansn tracking-widest font-OpenSansBold text-sm">
+                <div className={`hidden md:flex md:w-screen  md:text-bold  md:mt-0  md:border-none justify-center items-center flex-grow cursor-pointer font-opensansn tracking-widest font-OpenSansBold text-sm fixed z-50 p-3 ${scrolled === true ? menuClass : ""}`}>
                     <Link
                         activeClass="active"
                         to="home"
