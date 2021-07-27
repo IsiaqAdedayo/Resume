@@ -92,6 +92,12 @@
   "portfolio": {
     "projects": [
       {
+        "title": "JetPack (HTML & Tailwind)",
+        "category": "",
+        "image": "/jetpack.jpg",
+        "url": "https://jetpack-ecru.vercel.app//"
+      },
+      {
         "title": "Video Streaming with live chat(React JS)",
         "category": "",
         "image": "/video_streaming_with_live_chat.jpg",
@@ -140,10 +146,16 @@
         "url": "https://app-user-database.netlify.app/"
       },
       {
-        "title": "Crypto Tracker (React JS)",
+        "title": "Admin Page(React JS)",
         "category": "",
-        "image": "/crypto_tracka.jpg",
-        "url": "https://crypto-tracka.netlify.app/"
+        "image": "/admin.jpg",
+        "url": "https://admin-page-rho.vercel.app/"
+      },
+      {
+        "title": "Vasiti (NextJS & Tailwind)",
+        "category": "",
+        "image": "/vasiti.jpg",
+        "url": "#"
       }
     ]
   },

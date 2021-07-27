@@ -5,6 +5,14 @@ import Image from "next/image"
 
 const Portfolio = ({ data }) => {
 
+    // buttonRight.onclick = function () {
+    //     document.getElementById('container').scrollLeft += 20;
+    //   };
+    //   buttonLeft.onclick = function () {
+    //     document.getElementById('container').scrollLeft -= 20;
+    //   };
+  
+
     if (data) {
         var projectsImg = data.projects.map(function (projects) {
           var projectImage =  projects.image;
