@@ -14,8 +14,8 @@
       "state": "Lagos",
       "zip": "112107"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "website": "https://resume-one-liart.vercel.app/",
+    "resumedownload": "https://drive.google.com/file/d/1nu31dom7dzfoaYMcVUG80huRYKmIGw6J/view?usp=sharing",
     "social": [
       {
         "name": "twitter",
@@ -92,10 +92,10 @@
   "portfolio": {
     "projects": [
       {
-        "title": "JetPack (HTML & Tailwind)",
+        "title": "Google Homepage (NextJS & Tailwind)",
         "category": "",
-        "image": "/jetpack.jpg",
-        "url": "https://jetpack-ecru.vercel.app//"
+        "image": "/Google.jpg",
+        "url": "https://google-homepage-henna.vercel.app/"
       },
       {
         "title": "Video Streaming with live chat(React JS)",
@@ -104,10 +104,22 @@
         "url": "https://vidstry.netlify.app/"
       },
       {
-        "title": "Pilot(Next JS & Tailwind)",
+        "title": "Vasiti (NextJS & Tailwind)",
         "category": "",
-        "image": "/Pilot_Web.jpg",
-        "url": "https://my-pilot.vercel.app/"
+        "image": "/vasiti.jpg",
+        "url": "https://vasitiassementtest.vercel.app/"
+      },
+      {
+        "title": "Winery (NextJS & Tailwind)",
+        "category": "",
+        "image": "/Winery.jpg",
+        "url": "https://winery-seven.vercel.app/"
+      },
+      {
+        "title": "Momentables (NextJS & Tailwind)",
+        "category": "",
+        "image": "/momentables.jpg",
+        "url": "https://momentables.vercel.app/"
       },
       {
         "title": "Hulu Clone(Next JS & Tailwind)",
@@ -116,10 +128,10 @@
         "url": "https://hulu-clone-flame-one.vercel.app/"
       },
       {
-        "title": "Login(Next JS & Tailwind)",
+        "title": "JetPack (HTML & Tailwind)",
         "category": "",
-        "image": "/Login_page.jpg",
-        "url": "https://frontendassessment.vercel.app/"
+        "image": "/jetpack.jpg",
+        "url": "https://jetpack-ecru.vercel.app//"
       },
       {
         "title": "Movie Nominations (React JS)",
@@ -140,6 +152,12 @@
         "url": "https://vibrant-mirzakhani-250cb6.netlify.app/index.html"
       },
       {
+        "title": "Pilot(Next JS & Tailwind)",
+        "category": "",
+        "image": "/Pilot_Web.jpg",
+        "url": "https://my-pilot.vercel.app/"
+      },
+      {
         "title": "User Database (React JS)",
         "category": "",
         "image": "/User_database.jpg",
@@ -152,10 +170,10 @@
         "url": "https://admin-page-rho.vercel.app/"
       },
       {
-        "title": "Vasiti (NextJS & Tailwind)",
+        "title": "Login(Next JS & Tailwind)",
         "category": "",
-        "image": "/vasiti.jpg",
-        "url": "#"
+        "image": "/Login_page.jpg",
+        "url": "https://frontendassessment.vercel.app/"
       }
     ]
   },

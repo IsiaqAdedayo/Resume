@@ -47,7 +47,7 @@ const About = ({ data }) => {
                             </p>
                         </div>
 
-                        <a href="#" className="flex justify-center items-center w-auto bg-bgHeader text-white py-3 px-5 cursor-pointer h-auto rounded md:h-16">
+                        <a href={resumeDownload} className="flex justify-center items-center w-auto bg-bgHeader text-white py-3 px-5 cursor-pointer h-auto rounded md:h-16">
                             <FontAwesomeIcon icon={faDownload} className="h-4 w-6"/> &nbsp; &nbsp;
                             <h1>Download Resume</h1>
                         </a>
