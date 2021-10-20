@@ -18,7 +18,7 @@ const Portfolio = ({ data }) => {
           var projectImage =  projects.image;
           return (
             <div className="h-28 md:mb-11 w-36 md:h-48 md:w-64 cursor-pointer transition duration-100 transform group hover:scale-125" key={projects.title}>            
-                <a href={projects.url}>
+                <a href={projects.url} target="_blank">
                     <Image 
                         src={projectImage}
                         layout="fill"

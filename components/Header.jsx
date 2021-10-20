@@ -255,19 +255,19 @@ const Header = ({ data }) => {
                         </h3>
                         <hr />
                         <div className="w-6/12 md:w-4/12 mt-7 grid grid-flow-col items-center p-3">
-                            <a href={`https://web.facebook.com/Hadedaryor/`}>
+                            <a href={`https://web.facebook.com/Hadedaryor/`} target="_blank"    >
                                 <FontAwesomeIcon icon={faFacebookF} className="h-5 md:h-8 transition duration-500 ease-in-out hover:text-oceanGreen" />
                             </a>
-                            <a href={`https://twitter.com/ImDahDayo`}>
+                            <a href={`https://twitter.com/ImDahDayo`} target="_blank">
                                 <FontAwesomeIcon icon={faTwitter} className="h-5 md:h-8 transition duration-500 ease-in-out hover:text-oceanGreen"/>
                             </a>
-                            <a href={`https://www.linkedin.com/in/showande-adedayo-789a42195/`}>
+                            <a href={`https://www.linkedin.com/in/showande-adedayo-789a42195/`} target="_blank">
                                 <FontAwesomeIcon icon={faLinkedin} className="h-5 md:h-8 transition duration-500 ease-in-out hover:text-oceanGreen"/>
                             </a>
-                            <a href={`https://www.instagram.com/lord_qaisi/`}>
+                            <a href={`https://www.instagram.com/lord_qaisi/`} target="_blank">
                                 <FontAwesomeIcon icon={faInstagram} className="h-5 md:h-8 transition duration-500 ease-in-out hover:text-oceanGreen"/>
                             </a>
-                            <a href={`https://github.com/IsiaqAdedayo`}>
+                            <a href={`https://github.com/IsiaqAdedayo`} target="_blank">
                                 <FontAwesomeIcon icon={faGithub} className="h-5 md:h-8 transition duration-500 ease-in-out hover:text-oceanGreen"/>
                             </a> 
                         </div>
